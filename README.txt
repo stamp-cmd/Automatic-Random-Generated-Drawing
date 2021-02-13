@@ -13,4 +13,4 @@ So, slow your clicking down, if you face this problems
 
 This is my first project, so the code might be error.
 
-Thanks for playing 
+Thanks for using 
