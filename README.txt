@@ -1,5 +1,3 @@
-If you're reading this thank you for reading.
-
 ARGD or Automatic Random Generated Drawing is a drawing app. The drawing is generated from number
 (pseudo-random) drawing perform by turtle graphic.
 
