@@ -7,8 +7,10 @@ import time
 Header = "System 15" #Edit Header font Here
 Paragraph = "System 10" #Edit Paragraph font Here
 Title_Text = "Automatic Random Generated Drawing" #Edit Title Here
-Background_Color = "#c9c9c9" #Edit Bakcground color Here (Hex Code)
-Icon_Address = "ARGD-logo-_2_.ico"
+Background_Color = "#c9c9c9" #Edit Background color Here (Hex Code)
+Icon_Address = "ARGD-logo-_2_.ico" #Edit Icon_Address
+Size = 5 #Edit Pen Size
+Color = "#000000" #Edit Color
 
 
 root = tkinter.Tk()
@@ -35,6 +37,7 @@ Movement = random.randint(Min_Movement, Max_Movement)
 
 def Runs():
     turt.pensize(5)
+    turt.color(
     Run = tkinter.Button(root, text="Run", font=Paragraph, width=10, command=Runs , state=DISABLED)
     Run.grid(row=2, column=0, pady=5)
     Reset = tkinter.Button(root, text="Reset", font=Paragraph, width=10, command=Resets, state=DISABLED)
